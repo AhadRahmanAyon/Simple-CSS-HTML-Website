@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #333232;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Baloo Thambi' cursive, ;
+            font-size: 5rem;
+        }
+
+        .container>span {
+            animation: glow 10s ease-in-out infinite;
+        }
+
+        @keyframes glow {
+
+            0%,
+            100% {
+                color: #3de81b;
+                text-shadow: 0 0 12px rgb(238, 238, 238), 0 0 50px lime, 0 0 100px lime;
+            }
+
+            10%,
+            90% {
+                color: #d7ddd9;
+                text-shadow: 0 0 12px rgb(255, 255, 255), 0 0 50px rgb(255, 255, 255), 0 0 100px rgb(255, 255, 255);
+            }
+        }
+
+        .container>span:nth-child(1) {
+            animation-delay: .50s s;
+        }
+
+        .container>span:nth-child(2) {
+            animation-delay: 1s;
+        }
+
+        .container>span:nth-child(3) {
+            animation-delay: 1.25s;
+        }
+
+        .container>span:nth-child(4) {
+            animation-delay: 1.50s;
+        }
+
+        .container>span:nth-child(5) {
+            animation-delay: 1.75s;
+        }
+
+        .container>span:nth-child(6) {
+            animation-delay: 2s;
+        }
+
+        .container>span:nth-child(7) {
+            animation-delay: 2.25s;
+        }
+
+        .container>span:nth-child(8) {
+            animation-delay: 2.50s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span>W</span>
+        <span>E</span>
+        <span>L</span>
+        <span>L</span>
+        <span>C</span>
+        <span>O</span>
+        <span>M</span>
+        <span>E</span>
+    </div>
+
+</body>
+
+</html>
